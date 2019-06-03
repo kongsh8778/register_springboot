@@ -9,7 +9,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 public class SpringbootStartApplication extends SpringBootServletInitializer{
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application){
-		return application.sources(AppLication.class);
+		return application.sources(SpringbootStartApplication.class);
 	}
 
 	public static void main(String[] args) {
